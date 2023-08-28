@@ -1,0 +1,322 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MY CODE STARTS HERE WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
+
+/* font stylessssssssssssssssssssssssss */
+h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: semibold;
+    font-size: 38px;
+    color: #2F2F2F;
+    line-height: 120%;
+}
+h2{
+	font-family: "Inter", san-serif;
+	font-weight: 500;
+	font-style: medium;
+	font-size: 22px;
+	color: #2F2F2F;
+	line-height: 120%;
+}
+h3{
+	font-family: "OpenSans", sans-serif;
+	font-weight: 600;
+	font-style: semibold;
+	font-size: 14px;
+	color: #2f2f2f;
+	line-height: 120%;
+	display:inline-block;
+}
+h4 {
+	font-family: "OpenSans", sans-serif;
+	font-weight: 400;
+	font-style: regular;
+	font-size: 16px;
+	color: #2f2f2f;
+	line-height: 120%;
+}
+body {
+	font-family: "OpenSans", sans-serif;
+	font-weight: 400;
+	font-style: regular;
+	font-size: 14px;
+	color: #2f2f2f;
+	line-height: 120%;
+	display:inline-block;
+}
+
+strong{
+	font-family: "OpenSans", sans-serif;
+	font-weight: 600;
+	font-style: semibold;
+	font-size: 14px;
+	color: #2f2f2f;
+	line-height: 120%;
+	display:inline-block;
+}
+
+h5 {
+	font-family: "OpenSans", sans-serif;
+	font-weight: 400;
+	font-style: regular;
+	font-size: 14px;
+	color: #2f2f2f;
+	line-height: 120%;
+	display:inline-block;
+	display: list-item;
+    margin-left: 1rem;
+}
+
+/* paddingggggggggggggggggggggggggggggg */
+/* .intro {
+	padding-top: 1rem;
+	padding-left: 8rem;
+	padding-right: 8rem;
+} */
+
+/* .works-meat {
+	padding-top: 1rem;
+	padding-left: 8rem;
+	padding-right: 8rem;
+	padding-bottom: 6rem;
+} */
+
+.project {
+	padding-top: 1rem;
+	padding-left: 8rem;
+	padding-right: 8rem;
+	padding-bottom: 3rem;
+}
+
+
+/* navigationnnnnnnnnnnnnnnnnnnnnnnnnnnn */
+
+.topnav {
+	overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+	/* background: rgba(255,255,255, 0.3); */
+	backdrop-filter: blur(15px);
+  	position: fixed;
+  	top: 0;
+	width: 100%;
+	border-bottom: 1px solid #d9d9d9;
+  }
+
+  .topnav a {
+	float: left;
+	color: #2F2F2F;
+	text-decoration: none;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 3rem;
+  }
+  
+  .topnav a:hover {
+	-webkit-text-fill-color: #9a9a9a;
+  }
+
+  .topnav-right a{
+	padding-left: 2rem;
+	padding-bottom: 1rem;
+  }
+
+  .topnav-right {
+	float: right;
+	position: fixed;
+	right: 3rem;
+  }
+
+  .topnav a:link{
+	text-align: right;
+	}
+
+	/* .nb-border {
+	border-bottom: solid #d9d9d9;
+	position: absolute; left: 0; right: 0; z-index: 1;
+	} */
+
+/* BREAKS N STUFFFFFFFFFFFFFFFFFFFFFFFFF */
+div.bigbr {
+	height: 7.5rem;
+}
+
+div.textbr {
+	height: 0.75rem;
+}
+
+div.smolbr {
+	height: 1.5rem;
+}
+br {
+	height: 0.5rem;
+}
+
+/* LINKSSSSSSSSSSSSSSSSSSSSSSS... */
+a:link {
+    color: #2f2f2f;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #2f2f2f;
+	text-decoration: none;
+  }
+
+  a:active {
+    color: #2f2f2f;
+	text-decoration: none;
+  }
+
+ .proj:link {
+	color: #2f2f2f;
+	text-decoration:underline;
+ }
+
+
+/* GALLERY PARTTTTTTTTTTTTTTTTTTTT */
+.intro {
+	/* border-bottom: 1px solid #d9d9d9; */
+	padding-top: 1rem;
+	padding-left: 8rem;
+	padding-right: 8rem;
+	padding-bottom: 1rem;
+}
+
+div.gallery {
+	display: flex;
+	align-items: left;
+	border-bottom: 1px solid #d9d9d9;
+	overflow: hidden;
+	/* filter:grayscale(); */
+}
+
+img.thumbnail {
+    width: 65%;
+	max-width: 65%;
+    height: auto;
+	padding-left: 8rem;
+	padding-bottom: 1.3rem;
+    }
+
+.thumbnail-description {
+	padding-left: 2rem;
+	padding-right: 8rem;
+	padding-bottom: 1.3rem;
+}
+
+
+/* PROJECTSSSSSSSSSSSSSSSSSSS */
+
+div.proj-intro {
+	max-width:21rem;
+	word-wrap:break-word;
+	display: inline-block;
+}
+
+div.proj-info {
+	float: right;
+	max-width: 21rem;
+	text-align: left;
+}
+
+td {
+	padding-bottom: 0.75rem;
+}
+
+img.proj-opener {
+	width: 100%;
+	height: auto;
+	padding-bottom: 1.5 rem;
+}
+
+video.proj-slide {
+	width: 35%;
+	float: right;
+	height: auto;
+}
+
+img.proj-slide {
+	width: 80%;
+	float: right;
+	height: auto;
+}
+
+div.slide {
+	width:100%;
+	height: auto;
+}
+
+div.proj-caption {
+	max-width: 21rem;
+	word-wrap: break-word;
+}
+
+div.proj-slide {
+	width: 100%;
+	max-width: 100%;
+	/* min-height: 25rem; */
+	height: auto;
+	margin-top: 7.5rem;
+	/* overflow: hidden; */
+	display: flex;
+}
+
+div.footer {
+	margin-top:5rem;
+	margin-bottom: 2rem;
+	align-content:center;
+	text-align: center;
+}
+
+div.footer-2{
+	color: #9a9a9a;
+}
