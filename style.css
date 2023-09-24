@@ -327,20 +327,46 @@ div.footer-2{
 	color: #9a9a9a;
 }
 /* EXPLOREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
-img.gallery {
-	display:inline-block;
+video.egallery {
+	/* display:inline-block; */
 	width:100%;
 	padding-top: 1rem;
 }
 
-video.gallery {
-	display:inline-block;
-	max-width:100%;
+img.gallery {
+	/* display:inline-block; */
+	width:100%;
 	padding-top: 1rem;
+}
+
+.egallery {
+	width:100%;
 }
 
 .explore {
 	column-count:3;
 	display:block;
 	gap:1rem;
+}
+
+.aboutme {
+	display:flex;
+	align-items:flex-end;
+	gap:2rem;
+	padding-left: 8rem;
+	padding-right: 8rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+img.abt {
+	width:25%;
+}
+
+.abt {
+	max-width:30%;
+}
+
+.abt2{
+	float:right;
 }
