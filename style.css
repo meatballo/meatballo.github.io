@@ -333,6 +333,12 @@ img.gallery {
 	padding-top: 1rem;
 }
 
+video.gallery {
+	display:inline-block;
+	max-width:100%;
+	padding-top: 1rem;
+}
+
 .explore {
 	column-count:3;
 	display:block;
