@@ -359,14 +359,26 @@ img.gallery {
 	padding-top: 1rem;
 }
 
-img.abt {
+img.abtme{
+	width:100%;
+}
+
+.imgboxm .hiddenimg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.imgboxm {
 	width:25%;
+	position:relative;
 }
 
 .abt {
 	max-width:30%;
 }
 
-.abt2{
-	float:right;
+.imgboxm:hover .hiddenimg{
+	display:block;
 }
