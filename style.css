@@ -135,8 +135,8 @@ h5 {
 
 .project {
 	padding-top: 1rem;
-	padding-left: 8rem;
-	padding-right: 8rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
 	padding-bottom: 3rem;
 }
 
@@ -175,7 +175,7 @@ h5 {
 	text-decoration: none;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	padding-left: 3rem;
+	padding-left: 5rem;
 	display: block;
   }
   
@@ -187,7 +187,7 @@ h5 {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	padding-right: 3rem;
+	padding-right: 5rem;
   }
 
   .topnav-right a{
@@ -247,8 +247,8 @@ a:link {
 .intro {
 	/* border-bottom: 1px solid #d9d9d9; */
 	padding-top: 1rem;
-	padding-left: 8rem;
-	padding-right: 8rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
 	padding-bottom: 1rem;
 }
 
@@ -264,13 +264,13 @@ img.thumbnail {
     width: 65%;
 	max-width: 65%;
     height: auto;
-	padding-left: 8rem;
+	padding-left: 5rem;
 	padding-bottom: 1.3rem;
     }
 
 .thumbnail-description {
 	padding-left: 2rem;
-	padding-right: 8rem;
+	padding-right: 5rem;
 	padding-bottom: 1.3rem;
 }
 
@@ -374,8 +374,8 @@ img.gallery {
 	display:flex;
 	align-items:flex-end;
 	gap:2rem;
-	padding-left: 8rem;
-	padding-right: 8rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
 	padding-bottom: 1rem;
 	padding-top: 1rem;
 }
