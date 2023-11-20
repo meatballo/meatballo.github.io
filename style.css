@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	/* background-color: #F0EDE8; */
 }
 ol, ul {
 	list-style: none;
@@ -395,7 +396,6 @@ div.proj-intro {
 
 div.proj-info {
 	float: right;
-	max-width: 21rem;
 	text-align: left;
 }
 
@@ -405,6 +405,7 @@ td {
 
 img.proj-opener {
 	width: 100%;
+	min-width: 100%;
 	height: auto;
 	padding-bottom: 1.5 rem;
 }
