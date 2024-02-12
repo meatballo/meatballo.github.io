@@ -97,9 +97,9 @@ body {
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 400;
 	font-style: regular;
-	font-size: 14px;
+	font-size: 15px;
 	color: #2f2f2f;
-	line-height: 120%;
+	line-height: 130%;
 	display:inline-block;
 }
 
@@ -107,9 +107,9 @@ strong{
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 600;
 	font-style: semibold;
-	font-size: 14px;
+	font-size: 15px;
 	color: #464646;
-	line-height: 120%;
+	line-height: 130%;
 	display:inline-block;
 }
 
@@ -117,9 +117,9 @@ h5 {
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 400;
 	font-style: regular;
-	font-size: 14px;
+	font-size: 15px;
 	color: #2f2f2f;
-	line-height: 120%;
+	line-height: 130%;
 	display:inline-block;
 	display: list-item;
     margin-left: 1rem;
@@ -154,6 +154,7 @@ h5 {
     justify-content: space-between;
 	background: rgba(255,255,255, 0.3);
 	backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(15px);
   	position: fixed;
   	top: 0;
 	width: 100%;
@@ -242,7 +243,7 @@ a:link {
 .intro {
 	display: grid;
 	grid-template-rows: repeat(1, 50px);
-	grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+	grid-template-columns: repeat(auto-fit, minmax(100px,1000px));
 	grid-auto-rows: 100px;
 	grid-column-gap: 10px;
 	padding-left: 3rem;
@@ -311,11 +312,20 @@ td {
 	padding-bottom: 0.75rem;
 }
 
-img.proj-opener {
-	width: 100%;
-	min-width: 100%;
+.project-openers{
+	display: flex;
+	flex: flex-wrap;
+}
+
+.proj-opener {
+	width: 47%;
 	height: auto;
-	padding-bottom: 1.5 rem;
+	padding: 1rem;
+}
+
+img.opener{
+	width: 100%;
+	height: auto;
 }
 
 video.proj-slide {
@@ -428,3 +438,11 @@ img.abtme{
 .imgboxm:hover .hiddenimg{
 	display:block;
 }
+
+/* video.proj-opener:hover {
+	display:flex;
+}
+
+video.proj-opener:hover {
+	display: hidden;
+} */
