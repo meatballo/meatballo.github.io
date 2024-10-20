@@ -63,7 +63,7 @@ h1{
 	font-weight: 400;
 	font-style: italic;
 	font-size: 36px;
-	color: #2F2F2F;
+	color: #273028;
 	line-height: 100%;
 } 
 
@@ -72,8 +72,8 @@ h2{
 	font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: italic;
-	font-size: 20px;
-	color: #2F2F2F;
+	font-size: 24px;
+	color: #273028;
 	line-height: 120%;
 }
 h3{
@@ -81,7 +81,7 @@ h3{
 	font-weight: 600;
 	font-style: regular;
 	font-size: 14px;
-	color: #2f2f2f;
+	color: #5d785b;
 	line-height: 130%;
 	display:inline-block;
 }
@@ -90,7 +90,7 @@ h4 {
 	font-weight: 400;
 	font-style: italic;
 	font-size: 16px;
-	color: #2f2f2f;
+	color: #273028;
 	line-height: 100%;
 }
 body {
@@ -98,7 +98,7 @@ body {
 	font-weight: 400;
 	font-style: regular;
 	font-size: 14px;
-	color: #2f2f2f;
+	color: #273028;
 	line-height: 130%;
 	display:inline-block;
 }
@@ -108,7 +108,7 @@ strong{
 	font-weight: 600;
 	font-style: regular;
 	font-size: 14px;
-	color: #2f2f2f;
+	color: #54954f;
 	line-height: 130%;
 	display:inline-block;
 }
@@ -118,7 +118,7 @@ h5 {
 	font-weight: 400;
 	font-style: regular;
 	font-size: 14px;
-	color: #2f2f2f;
+	color: #273028;
 	line-height: 130%;
 	display:inline-block;
 	display: list-item;
@@ -130,13 +130,14 @@ h6 {
 	font-weight: 400;
 	font-style: regular;
 	font-size: 16px;
-	color: #7e7e7e;
+	color: #687c65;
 	line-height: 130%;
 	display:inline-block;
 }
 
 b {
 	font-weight: 600;
+	color:#5d785b;
 }
 
 /* paddingggggggggggggggggggggggggggggg */
@@ -252,7 +253,7 @@ a:link {
  }
 
  .n:hover {
-	-webkit-text-fill-color: #dd3939;
+	-webkit-text-fill-color: #438e2a;
   }
 
 
@@ -378,6 +379,15 @@ td {
 	height: auto;
 } 
 
+img.proj-opener3{
+	margin: auto;
+	max-width: 60rem;
+	align-items: center;
+	display:block;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
 img.opener{
 	width: 100%;
 	height: auto;
@@ -430,6 +440,17 @@ img.fifty{
     height: 21.5rem; 
 }
 
+.thirds{
+	padding-left: 5rem;
+	padding-right: 5rem;
+	display: grid;
+	grid-template-columns:auto auto auto;
+	column-gap: 2rem;
+	padding-bottom: 3rem;
+}
+
+
+
 .grid-container {
     display: flex-box;
     /* grid-template-columns: repeat(auto-fill, minmax(200px, 0.5fr)); */
@@ -471,7 +492,7 @@ div.proj-slide {
 	max-width: 100%;
 	/* min-height: 25rem; */
 	height: auto;
-	margin-top: 3rem;
+	margin-top: 1rem;
 	margin-bottom:1rem;
 	/* overflow: hidden; */
 	display: flex;
