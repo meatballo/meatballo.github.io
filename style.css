@@ -81,7 +81,7 @@ h3{
 	font-weight: 600;
 	font-style: regular;
 	font-size: 14px;
-	color: #5d785b;
+	color: #043f00;
 	line-height: 130%;
 	display:inline-block;
 }
@@ -108,7 +108,7 @@ strong{
 	font-weight: 600;
 	font-style: regular;
 	font-size: 14px;
-	color: #54954f;
+	color: #087600;
 	line-height: 130%;
 	display:inline-block;
 }
@@ -137,7 +137,7 @@ h6 {
 
 b {
 	font-weight: 600;
-	color:#5d785b;
+	color:#087600;
 }
 
 /* paddingggggggggggggggggggggggggggggg */
@@ -492,8 +492,8 @@ div.proj-slide {
 	max-width: 100%;
 	/* min-height: 25rem; */
 	height: auto;
-	margin-top: 1rem;
-	margin-bottom:1rem;
+	margin-top: 2rem;
+	margin-bottom:2rem;
 	/* overflow: hidden; */
 	display: flex;
 	justify-content: space-between;
