@@ -441,15 +441,25 @@ img.fifty{
 }
 
 .thirds{
-	padding-left: 5rem;
-	padding-right: 5rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
 	display: grid;
 	grid-template-columns:auto auto auto;
-	column-gap: 2rem;
-	padding-bottom: 3rem;
+	column-gap: 3rem;
+	/* padding-bottom: 3rem; */
 }
 
+.third{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	display: flex-box;
+	max-width: 100%;
+	padding-bottom: 5rem;
+}
 
+.three{
+	width: 33%;
+}
 
 .grid-container {
     display: flex-box;
